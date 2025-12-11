@@ -1,0 +1,115 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+}
+
+/* LIGHT & DARK THEMES */
+:root {
+    --bg: #ffffff;
+    --text: #222;
+    --card: #f3f3f3;
+}
+
+.dark-mode {
+    --bg: #1a1a1a;
+    --text: #f5f5f5;
+    --card: #2b2b2b;
+}
+
+/* NAVBAR */
+.navbar {
+    width: 100%;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    background: var(--card);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    font-weight: bold;
+}
+
+.theme-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 100px 40px;
+    min-height: 100vh;
+}
+
+/* HOME */
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-content h1 span {
+    color: orange;
+}
+
+.home-img img {
+    width: 250px;
+    border-radius: 50%;
+}
+
+/* SKILLS */
+.skill-list span {
+    display: inline-block;
+    background: var(--card);
+    padding: 10px 15px;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+/* PROJECTS */
+.project-card {
+    background: var(--card);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* CONTACT */
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background: orange;
+    border: none;
+    cursor: pointer;
+}

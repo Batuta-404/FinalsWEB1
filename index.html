@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <div class="logo">MyPortfolio</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <button id="themeToggle" class="theme-btn">🌙</button>
+    </nav>
+
+
+    <section id="home" class="section home">
+        <div class="home-content">
+            <h1>Hello, I'm <span>Karl</span></h1>
+            <p>Aspiring Web Developer | IT Student</p>
+            <p class="quote">"Small steps every day lead to big results."</p>
+        </div>
+        <div class="home-img">
+            <img src="images/picture.jpg" alt="Profile Picture">
+        </div>
+    </section>
+
+
+    <section id="about" class="section about">
+        <h2>About Me</h2>
+        <p>
+            I'm an IT student passionate about web development, software engineering,
+            and creating systems that solve real-world problems.
+        </p>
+
+        <h3>Educational Background</h3>
+        <p>Eastern Visayas State University, BS Information Technology, Year 2</p>
+
+        <h3>Hobbies</h3>
+        <ul>
+            <li>Coding</li>
+            <li>Gaming</li>
+            <li>Reading</li>
+        </ul>
+    </section>
+
+
+    <section id="skills" class="section skills">
+        <h2>Skills</h2>
+
+        <h3>Programming Languages & Tools</h3>
+        <div class="skill-list">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            <span>Python</span>
+            <span>Git</span>
+            <span>VS Code</span>
+        </div>
+
+        <h3>Soft Skills</h3>
+        <ul>
+            <li>Teamwork</li>
+            <li>Problem-Solving</li>
+            <li>Communication</li>
+        </ul>
+    </section>
+
+
+    <section id="projects" class="section projects">
+        <h2>Projects</h2>
+
+        <div class="project-card">
+            <img src="images/Screenshot 2025-12-11 125755.png" alt="Project 1">
+            <h3>SASO Graduate Record Management and Good Moral Release System</h3>
+            <p>A database driven verification and Good Moral Release system for SASO graduates.</p>
+            <p><b>Tools:</b> Python, Tkinter, Pandas, SQLite</p>
+        </div>
+
+        
+
+    </section>
+
+
+    <section id="contact" class="section contact">
+        <h2>Contact Me</h2>
+
+        <form class="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+
+        <div class="socials">
+            <p>Email: codingentry404@gmail.com</p>
+            <a href="https://github.com/Batuta-404">GitHub</a> | |
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
